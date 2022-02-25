@@ -2,14 +2,8 @@
 
 Download and convert any YouTube video to MP3 or MP4. Built using Vanilla JS and Node.js
 
-Deployed **[live](https://convert-and-download-yt.herokuapp.com/)**
 
 ***N.b. Only to be used in accordance with YouTube's [terms of service](https://www.youtube.com/static?gl=GB&template=terms)***
-
-### Code style
-  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-    [![js-standard-style](https://img.shields.io/badge/deployed-heroku-blue.svg)](https://stormy-reaches-60483.herokuapp.com/)
-    [![js-standard-style](https://img.shields.io/badge/deployed%20version-1.0.0-green.svg)](https://stormy-reaches-60483.herokuapp.com/)
 
 ### Demo
 
@@ -20,19 +14,15 @@ Deployed **[live](https://convert-and-download-yt.herokuapp.com/)**
 
 </p>
 
-### Features
-
-- [x] Select video/audio quality
-- [x] Select audio only (YouTube to MP3)
-- [x] Video with no audio option
 
 ### How to Run
 
 Instructions to run server:
 
 ```
-$ git clone https://github.com/barclayd/YouTube-Downloader.git
-$ cd YouTube-Downloader && cd server
+$ git clone https://github.com/Ax3l72/YouTube-Downloader.git
+$ cd YouTube-Downloader/server
+$ npm i
 $ npm start
 ```
 
@@ -43,10 +33,5 @@ $ cd .. && cd client
 $ open index.html
 ```
 
-### Future Improvements
-
-* Configure format (e.g. flv, wmv)
-* Specify start and end times for video
-* Batch convert videos
-
-    
+### Author
+@barclayd [fork](https://github.com/barclayd/YouTube-Downloader) by @Ax3l72

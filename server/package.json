@@ -4,14 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --exec babel-node app.js"
+    "start": "npx babel-node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.0",
-    "ytdl-core": "^2.0.1"
+    "ytdl-core": "^4.10.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
